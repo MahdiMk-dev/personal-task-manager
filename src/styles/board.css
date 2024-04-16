@@ -1,0 +1,36 @@
+/* Board.css */
+.board {
+    padding: 20px;
+  }
+  
+  /* Column.css */
+  .column {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  .columns{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Task.css */
+  .task {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .task-actions {
+    margin-top: 5px;
+  }
+  
+  .task-actions button {
+    margin-right: 5px;
+  }
+  
